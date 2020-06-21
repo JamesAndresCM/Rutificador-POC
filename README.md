@@ -2,7 +2,7 @@
 
 * Rutificador Chilean API POC
 
-* Decompress tar.gz in lib/tasks folder
+* Decompress [file](http://www.mediafire.com/file/l8kyol8ltl82dg2/PadronElectoralChile2020.tar.gz/file) in lib/tasks folder
 
 * Run task to insert records in Database
 ```
