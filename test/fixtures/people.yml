@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  paternal: MyString
+  maternal: MyString
+  first_name: MyString
+  last_name: MyString
+  rut: 1
+  location: MyString
+
+two:
+  paternal: MyString
+  maternal: MyString
+  first_name: MyString
+  last_name: MyString
+  rut: 1
+  location: MyString

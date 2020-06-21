@@ -1,0 +1,28 @@
+# README
+
+* Rutificador Chilean API POC
+
+* Decompress tar.gz in lib/tasks folder
+
+* Run task to insert records in Database
+```
+bundle exec rake read_records:file[PATH_DECOMPRESS_FILE]
+```
+
+* Two Endpoints
+
+* Search by rut
+```
+http://localhost:3000/api/v1/search?rut=11XXXXXX
+```
+
+* Search by first-name,paternal,maternal
+```
+http://localhost:3000/api/v1/search?first_name=first_name&paternal=paternal&maternal=maternal
+```
+
+
+
+
+
+
