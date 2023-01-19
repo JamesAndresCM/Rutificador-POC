@@ -11,7 +11,7 @@ module Api
         @maternal = params[:maternal]
         if @rut
           search_by_rut
-        elsif @first_name && @paternal || @first_name && @maternal
+        elsif @first_name && @paternal || @first_name && @maternal || @first_name && @paternal && @maternal
           search_by_name_last_name
         end
       end
