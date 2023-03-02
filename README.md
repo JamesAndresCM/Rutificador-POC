@@ -9,7 +9,7 @@
 bundle exec rake read_records:file[PATH_DECOMPRESS_FILE]
 ```
 
-* Two Endpoints
+* 2 Endpoints
 
 * Search by rut
 ```
